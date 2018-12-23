@@ -1,14 +1,29 @@
 <template>
-    <div>
+    <div class="map-container">
         <el-input class="search-input" v-model="searchInput" placeholder="请输入内容" id="tipinput"></el-input>
+
+        <div class="btn-container">
+            <div class="btn dudu-work"
+                 @click="showDuduWork = !showDuduWork"
+                 :style="!showDuduWork ? {'background': '#32a30d'}: {'color': '#32a30d'}"
+            >
+                {{showDuduWork?'隐藏':'显示'}}肚肚工作地点
+            </div>
+            <div class="btn baobei-work"
+                 @click="showBaobeiWork = !showBaobeiWork"
+                 :style="!showBaobeiWork ? {'background': '#ff66b6', 'color': 'white'}: {'color': '#ff66b6'}"
+            >
+                {{showBaobeiWork?'隐藏':'显示'}}宝贝工作地点
+            </div>
+        </div>
         <div class="map-container" id="container"></div>
     </div>
 </template>
 
 <script>
     let hangzhouPos = [120.2, 30.266667];
-    let dudu_avater = 'https://ws4.sinaimg.cn/large/006tNbRwly1fyftnkuhszj30d80damyh.jpg';
-    let baobei_avater = 'https://ws2.sinaimg.cn/large/006tNbRwly1fyftobwjm1j30im0is40g.jpg';
+    let DUDU_AVATER = 'https://ws2.sinaimg.cn/large/006tNbRwgy1fygn4skahmj309p09pdgf.jpg';
+    let BAOBEI_AVATER = 'https://ws1.sinaimg.cn/large/006tNbRwgy1fygn6ko8ydj309p09paah.jpg';
 
     import {DUDU_WORK, BAOBEI_WORK} from "../config";
 
@@ -18,6 +33,30 @@
                 // 输入框里面的内容
                 searchInput: '',
                 map: '',
+                // 肚肚工作地点的mark
+                duduWorkMark: {},
+                // 宝贝工作地点mark
+                baobeiWorkMark: {},
+                // 显示肚肚的工作地点
+                showDuduWork: false,
+                // 显示宝贝的工作地点
+                showBaobeiWork: false,
+            }
+        },
+        watch: {
+            showDuduWork(newValue) {
+                if (newValue) {
+                    this.addDuduWork();
+                } else {
+                    this.removeDuduWork();
+                }
+            },
+            showBaobeiWork(newValue) {
+                if (newValue) {
+                    this.addBaoBeiWork();
+                } else {
+                    this.removeBaobeiWork();
+                }
             }
         },
         methods: {
@@ -25,21 +64,37 @@
                 for (let key in DUDU_WORK) {
                     var marker = new AMap.Marker({
                         position: new AMap.LngLat(DUDU_WORK[key].lng, DUDU_WORK[key].lat),
-                        icon: dudu_avater,
+                        icon: DUDU_AVATER,
                         offset: new AMap.Pixel(-13, -30)
                     });
+                    this.duduWorkMark[key] = marker;
                     this.map.add(marker);
                 }
+                this.map.setFitView();
+            },
+            removeDuduWork() {
+                for(let key in this.duduWorkMark) {
+                    this.map.remove(this.duduWorkMark[key]);
+                }
+                this.map.setFitView();
             },
             addBaoBeiWork() {
                 for (let key in BAOBEI_WORK) {
                     var marker = new AMap.Marker({
                         position: new AMap.LngLat(BAOBEI_WORK[key].lng, BAOBEI_WORK[key].lat),
-                        icon: baobei_avater,
+                        icon: BAOBEI_AVATER,
                         offset: new AMap.Pixel(-13, -30)
                     });
+                    this.baobeiWorkMark[key] = marker;
                     this.map.add(marker);
                 }
+                this.map.setFitView();
+            },
+            removeBaobeiWork() {
+                for(let key in this.baobeiWorkMark) {
+                    this.map.remove(this.baobeiWorkMark[key]);
+                }
+                this.map.setFitView();
             },
             setCenter(lng,lat ) {
                 if (!lng || !lat) {
@@ -49,6 +104,7 @@
             },
             createMap() {
                 this.map = new AMap.Map('container', {
+                    resizeEnable: true,
                     zoom:12,//级别
                     center: hangzhouPos,//中心点坐标
                     viewMode:'3D'//使用3D视图
@@ -103,25 +159,56 @@
             // 添加事件
             this.addConsoleEvent();
 
-            // 添加宝贝的工作地点
-            this.addDuduWork();
-            // 添加dudu的工作地点
-            this.addBaoBeiWork();
         }
     }
 </script>
 
-<style scoped>
+<style scoped lang="less">
     .map-container {
         width: 100vw;
         height: 100vh;
+        position: relative;
+        .map {
+            width: 100%;
+            height: 100%;
+        }
+        .search-input {
+            width: 360px;
+            height: 45px;
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            z-index: 100;
+        }
+        .btn-container {
+            width: 400px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            .btn {
+                padding-left: 10px;
+                padding-right: 10px;
+                color: white;
+                font-size: 14px;
+                border-radius: 16px;
+                cursor: pointer;
+                user-select: none;
+
+            }
+            .baobei-work {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                border: 1px solid #ff66b6;
+            }
+            .dudu-work {
+                position: absolute;
+                right: 0;
+                bottom: 30px;
+                border: 1px solid #32a30d;
+            }
+        }
     }
-    .search-input {
-        width: 360px;
-        height: 45px;
-        position: fixed;
-        left: 20px;
-        top: 20px;
-        z-index: 100;
-    }
+
 </style>

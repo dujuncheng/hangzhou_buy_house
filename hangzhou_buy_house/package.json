@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "element-ui": "^2.4.11",
+    "less": "^3.9.0",
     "vue": "^2.5.17"
   },
   "devDependencies": {

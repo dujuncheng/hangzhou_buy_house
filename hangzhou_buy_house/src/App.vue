@@ -35,6 +35,5 @@
         width: 22px !important;
         height: 22px !important;
         border-radius: 50%;
-        border: 1px solid green;
     }
 </style>
