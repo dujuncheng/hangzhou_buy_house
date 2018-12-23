@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9be1150-862a-4877-84ad-32d8041cb980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/src/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,10 +27,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="2" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="3" />
           <entry key="js" value="4" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="vue" value="3" />
           <entry key="vue-cli-service" value="1" />
           <entry key="webpack" value="1" />
@@ -43,26 +39,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="JSON" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="2" />
           <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Vue.js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="40" />
+          <entry key="html" value="41" />
           <entry key="js" value="20" />
-          <entry key="txt" value="12" />
+          <entry key="json" value="1" />
+          <entry key="txt" value="25" />
           <entry key="vue" value="3150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="40" />
+          <entry key="HTML" value="41" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="20" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="25" />
           <entry key="Vue.js" value="3150" />
         </counts>
       </usages-collector>
@@ -74,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -91,13 +89,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
               <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret column="860" selection-start-column="860" selection-end-column="860" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,9 +135,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -136,6 +161,7 @@
       <find>baobei_avater</find>
       <find>duduWorkMark</find>
       <find>baobei-work</find>
+      <find>baobeiWorkMark</find>
     </findStrings>
     <replaceStrings>
       <replace>DUDU_WORK</replace>
@@ -155,6 +181,9 @@
         <option value="$PROJECT_DIR$/hangzhou_buy_house/src/App.vue" />
         <option value="$PROJECT_DIR$/hangzhou_buy_house/src/config/index.js" />
         <option value="$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue" />
+        <option value="$PROJECT_DIR$/hangzhou_buy_house/dist/index.html" />
+        <option value="$PROJECT_DIR$/hangzhou_buy_house/package.json" />
+        <option value="$PROJECT_DIR$/hangzhou_buy_house/.gitignore" />
       </list>
     </option>
   </component>
@@ -219,32 +248,6 @@
               <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
               <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -285,7 +288,7 @@
       <updated>1545474665151</updated>
       <workItem from="1545474666311" duration="675000" />
       <workItem from="1545475780090" duration="5288000" />
-      <workItem from="1545543682040" duration="3685000" />
+      <workItem from="1545543682040" duration="3951000" />
     </task>
     <task id="LOCAL-00001" summary="add avater">
       <created>1545544330602</created>
@@ -294,16 +297,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545544330602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add work place">
+      <created>1545560598584</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545560598584</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9648000" />
+    <option name="totallyTimeSpent" value="9914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,8 +325,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32923833" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -332,7 +343,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add avater" />
-    <option name="LAST_COMMIT_MESSAGE" value="add avater" />
+    <MESSAGE value="add work place" />
+    <option name="LAST_COMMIT_MESSAGE" value="add work place" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html" />
@@ -340,9 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-105" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/node_modules/.bin/webpack">
       <provider selected="true" editor-type-id="text-editor" />
@@ -372,9 +381,6 @@
     <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/babel.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/src/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -385,7 +391,7 @@
     <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -393,6 +399,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret column="860" selection-start-column="860" selection-end-column="860" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
