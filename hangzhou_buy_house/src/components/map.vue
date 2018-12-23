@@ -60,6 +60,43 @@
             }
         },
         methods: {
+            addHangzhouXiZhan() {
+                var circle = new AMap.Circle({
+                    center: new AMap.LngLat("119.988262", "30.308642"), // 圆心位置
+                    radius: 1000,  //半径
+                    borderWeight: 3,
+                    strokeColor: "#FF33FF",
+                    strokeOpacity: 1,
+                    strokeWeight: 6,
+                    strokeOpacity: 0.2,
+                    fillOpacity: 0.4,
+                    strokeStyle: 'dashed',
+                    strokeDasharray: [10, 10],
+                    // 线样式还支持 'dashed'
+                    fillColor: '#1791fc',
+                    zIndex: 50,
+                });
+                // 创建纯文本标记
+                var text = new AMap.Text({
+                    text:'杭州西站',
+                    textAlign:'center', // 'left' 'right', 'center',
+                    verticalAlign:'middle', //middle 、bottom
+                    draggable:false,
+                    cursor:'pointer',
+                    style:{
+                        'padding': '.75rem 1.25rem',
+                        'border-width': 0,
+                        'text-align': 'center',
+                        'font-size': '10px',
+                        'color': 'blue',
+                        'background': 'transparent'
+                    },
+                    position: [119.988262, 30.308642]
+                });
+
+                text.setMap(this.map);
+                this.map.add(circle);
+            },
             addDuduWork() {
                 for (let key in DUDU_WORK) {
                     var marker = new AMap.Marker({
@@ -159,6 +196,7 @@
             // 添加事件
             this.addConsoleEvent();
 
+            this.addHangzhouXiZhan();
         }
     }
 </script>
