@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9be1150-862a-4877-84ad-32d8041cb980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hangzhou_buy_house/src/markdown/YUE_HONG_WAN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangzhou_buy_house/src/markdown/YU_JIANG_NAN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangzhou_buy_house/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangzhou_buy_house/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_buy_house/src/config/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +32,7 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="4" />
-          <entry key="js" value="8" />
+          <entry key="js" value="10" />
           <entry key="json" value="3" />
           <entry key="md" value="3" />
           <entry key="vue" value="5" />
@@ -52,7 +46,7 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="14" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Vue.js" value="5" />
@@ -61,7 +55,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="91" />
-          <entry key="js" value="188" />
+          <entry key="js" value="189" />
           <entry key="json" value="1" />
           <entry key="txt" value="25" />
           <entry key="vue" value="5352" />
@@ -71,7 +65,7 @@
         <counts>
           <entry key="HTML" value="91" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="188" />
+          <entry key="JavaScript" value="189" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="Vue.js" value="5352" />
         </counts>
@@ -119,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="696">
               <caret line="279" column="40" selection-start-line="279" selection-start-column="40" selection-end-line="279" selection-end-column="40" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
@@ -131,6 +125,20 @@
                 <element signature="e#6297#6684#0" />
                 <element signature="e#9951#11087#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/babel.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -217,6 +225,7 @@
         <option value="$PROJECT_DIR$/hangzhou_buy_house/src/markdown/YUE_HONG_WAN.js" />
         <option value="$PROJECT_DIR$/hangzhou_buy_house/public/index.html" />
         <option value="$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue" />
+        <option value="$PROJECT_DIR$/hangzhou_buy_house/vue.config.js" />
       </list>
     </option>
   </component>
@@ -281,59 +290,6 @@
               <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
               <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hangzhou_buy_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="hangzhou_buy_house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -383,7 +339,7 @@
       <workItem from="1545543682040" duration="6524000" />
       <workItem from="1545617104622" duration="312000" />
       <workItem from="1546160489302" duration="428000" />
-      <workItem from="1548602568060" duration="7780000" />
+      <workItem from="1548602568060" duration="8118000" />
     </task>
     <task id="LOCAL-00001" summary="add avater">
       <created>1545544330602</created>
@@ -427,17 +383,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545570814044</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add work place">
+      <created>1548613195945</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548613195945</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21007000" />
+    <option name="totallyTimeSpent" value="21345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -449,7 +412,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32923833" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -483,9 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5653" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/dist/css/app.5e38c530.css" />
     <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/dist/index.html">
@@ -584,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/src/components/map.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="696">
           <caret line="279" column="40" selection-start-line="279" selection-start-column="40" selection-end-line="279" selection-end-column="40" />
           <folding>
             <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
@@ -593,6 +553,16 @@
             <element signature="e#6297#6684#0" />
             <element signature="e#9951#11087#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangzhou_buy_house/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
