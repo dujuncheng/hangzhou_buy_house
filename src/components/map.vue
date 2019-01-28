@@ -436,7 +436,7 @@
         }
         .markdown-container {
             padding: 10px;
-            width: 400px;
+            width: 40%;
             height: 100%;
             background-color: white;
             position: absolute;
